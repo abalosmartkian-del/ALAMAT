@@ -39,7 +39,7 @@
 
 .hero-section {
   background-image: url("../img/heroBg.png");
-  background-size: auto;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--bg);
