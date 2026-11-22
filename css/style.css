@@ -200,6 +200,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 200px;
+  margin-bottom: 80px;
 }
 
 .episode-image {
@@ -207,4 +208,35 @@ body {
   height: auto;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0 , 0, 0.5);
+}
+
+.episode-text {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.episode-number {
+  font-family: var(--font-header);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--body-text);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.episode-text h3 {
+  font-family: var(--font-header);
+  font-size: 26px;
+  color: var(--body-text);
+  text-shadow: 0 0 20px var(--gold-accent);
+  padding-bottom: 15px;
+}
+
+.episode-text p {
+  width: 90%;
+  margin: 0 auto;
+
+  font-family: var(--font-body);
+  color: var(--body-text);
+  font-size: 16px;
+  line-height: 23px;
 }
