@@ -22,6 +22,8 @@ body {
   background-size: contain;
 }
 
+/* HEADER & NAV SECTION */
+
 .no-scroll {
   overflow: hidden;
 }
@@ -38,6 +40,7 @@ body {
 
 .nav-links {
   opacity: 0;
+  visibility: hidden;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -153,7 +156,7 @@ body {
   background-color: var(--bg);
   height: 126vh;
   width: 100%;
-  padding: 10x;
+  padding: 10px;
 }
 
 .hero_muntikas {
@@ -164,3 +167,44 @@ body {
 }
 
 
+
+/* STORY SECTION */
+.story-section {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.section-heading {
+  margin-bottom: 100px;
+}
+
+.section-heading h2 {
+  text-align: center;
+  font-size: 42px;
+  font-family: var(--font-header);
+  color: var(--body-text);
+  text-shadow: 0 0 5px var(--gold-accent);
+}
+
+.section-heading p {
+  padding-top: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  color: var(--body-text);
+  text-shadow: 0 0 5px var(--gold-accent);
+}
+
+.episode {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+.episode-image {
+  width: 130%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0 , 0, 0.5);
+}

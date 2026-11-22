@@ -22,7 +22,7 @@ window.addEventListener("scroll", function(){
 });
 
 window.addEventListener("scroll", function(){
-  if(window.scrollY > window.innerHeight){
+  if(window.scrollY > 100){
     heroBtn.classList.add("hero-btn-show");
   } else {
     heroBtn.classList.remove("hero-btn-show");
