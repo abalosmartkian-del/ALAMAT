@@ -10,7 +10,17 @@
 
 }
 
+.nav-links button {
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  top: 100px;
+  right: 360px;
+  font-size: 40px;
+}
+
 .nav-links {
+  opacity: 0;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -19,7 +29,43 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: 300px
+  height: 600px;
+  width: 1000px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-links nav {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.nav-links nav li {
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+.nav-links nav ul {
+  padding: 0;
+  margin-top: 60px;
+}
+
+.nav-links nav a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--body-text);
+  font-size: 32px;
 }
 
 .nav-scroll {

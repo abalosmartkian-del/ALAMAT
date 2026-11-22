@@ -1,9 +1,20 @@
-const navScroll = document.querySelector(".hero-btn")
+const heroBtn = document.querySelector(".hero-btn");
+const navBtn = document.querySelector(".nav-btn");
+const nav = document.querySelector(".nav-links");
+
+heroBtn.addEventListener("click", function(){
+  nav.classList.add("nav-show");
+});
+
+navBtn.addEventListener("click", function(){
+  nav.classList.remove("nav-show");
+  nav.classList.add("nav-hide");
+});
 
 window.addEventListener("scroll", function(){
   if(window.scrollY > 10) { 
-    navScroll.classList.add("scrolled");
+    heroBtn.classList.add("scrolled");
   } else {
-    navScroll.classList.remove("scrolled");
+    heroBtn.classList.remove("scrolled");
   }
 });
