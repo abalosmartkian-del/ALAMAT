@@ -1,0 +1,653 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabanata XXI: Muntikas</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Cinzel:wght@400;600;700&family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="#home" class="logo">MUNTIKAS</a>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#kwento">Kwento</a>
+            <a href="#episodes">Mga Episode</a>
+            <a href="#muntikas">Muntikas</a>
+            <a href="#credits">Credits</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="eyebrow">ISANG ALAMAT NG KATAPANGAN</p>
+
+            <h1>Kabanata XXI:<br>Muntikas</h1>
+
+            <div class="hero-image">
+                <img src="images/muntikas.png" alt="Muntikas">
+            </div>
+
+            <p class="hero-subtitle">
+                Ang Munting Bayaning May Pusong Mandirigma
+            </p>
+
+            <a href="#kwento" class="scroll-button">
+                SCROLL DOWN
+                <span>↓</span>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- STORY SECTION -->
+    <section class="story-section" id="kwento">
+
+        <div class="section-heading">
+            <p class="eyebrow">ANG ALAMAT</p>
+            <h2>Ang Kwento ni Muntikas</h2>
+            <div class="ornament">✦ ━━━━━ ✦</div>
+
+            <p>
+                Isang kwento ng tapang, talino, at paninindigan.
+                Tuklasin ang paglalakbay ng isang munting bayani.
+            </p>
+        </div>
+
+        <div class="episodes" id="episodes">
+
+            <!-- EPISODE 1 -->
+            <article class="episode">
+                <div class="episode-image">
+                    <img src="images/episode1.jpg" alt="Pamilya ni Muntikas">
+                </div>
+
+                <div class="episode-text">
+                    <span class="episode-number">EPISODE 01</span>
+                    <h3>Pamilya ni Muntikas</h3>
+                    <p>
+                        [Ilagay dito ang salaysay tungkol sa pamilya
+                        ni Muntikas, ang kanyang pinagmulan, at
+                        kung paano nagsimula ang kanyang buhay.]
+                    </p>
+                </div>
+            </article>
+
+            <!-- EPISODE 2 -->
+            <article class="episode reverse">
+                <div class="episode-image">
+                    <img src="images/episode2.jpg" alt="Pasiklaban">
+                </div>
+
+                <div class="episode-text">
+                    <span class="episode-number">EPISODE 02</span>
+                    <h3>Pasiklaban nina Muntikas at Higante</h3>
+                    <p>
+                        [Ilagay dito ang salaysay tungkol sa
+                        paghaharap nina Muntikas at ng higante.]
+                    </p>
+                </div>
+            </article>
+
+            <!-- EPISODE 3 -->
+            <article class="episode">
+                <div class="episode-image">
+                    <img src="images/episode3.jpg" alt="Kweba ng mga Higante">
+                </div>
+
+                <div class="episode-text">
+                    <span class="episode-number">EPISODE 03</span>
+                    <h3>Pagpunta ni Muntikas sa Kweba ng mga Higante</h3>
+                    <p>
+                        [Ilagay dito ang salaysay tungkol sa
+                        paglalakbay ni Muntikas sa kweba.]
+                    </p>
+                </div>
+            </article>
+
+            <!-- EPISODE 4 -->
+            <article class="episode reverse">
+                <div class="episode-image">
+                    <img src="images/episode4.jpg" alt="Hamon ng Hari">
+                </div>
+
+                <div class="episode-text">
+                    <span class="episode-number">EPISODE 04</span>
+                    <h3>Hamon ng Hari</h3>
+                    <p>
+                        [Ilagay dito ang salaysay tungkol sa hamon
+                        na ibinigay ng hari kay Muntikas.]
+                    </p>
+                </div>
+            </article>
+
+            <!-- EPISODE 5 -->
+            <article class="episode">
+                <div class="episode-image">
+                    <img src="images/episode5.jpg" alt="Ang Huling Labanan">
+                </div>
+
+                <div class="episode-text">
+                    <span class="episode-number">EPISODE 05</span>
+                    <h3>Ang Huling Labanan</h3>
+                    <p>
+                        [Ilagay dito ang salaysay tungkol sa
+                        pakikipaglaban ni Muntikas sa higante,
+                        polar bear, at iba pang kalaban.]
+                    </p>
+                </div>
+            </article>
+
+            <!-- EPISODE 6 -->
+            <article class="episode reverse">
+                <div class="episode-image">
+                    <img src="images/episode6.jpg" alt="Ang Wakas">
+                </div>
+
+                <div class="episode-text">
+                    <span class="episode-number">EPISODE 06</span>
+                    <h3>Ang Wakas</h3>
+                    <p>
+                        [Ilagay dito ang pagtatapos ng kwento
+                        at ang aral na iniwan ni Muntikas.]
+                    </p>
+                </div>
+            </article>
+
+            <!-- ORIGINAL CHAPTER -->
+            <article class="original-episode">
+
+                <span class="episode-number">
+                    BONUS CHAPTER • ORIGINAL STORY
+                </span>
+
+                <h3>
+                    Ang Huling Pagsubok:<br>
+                    Ang Lakas ng Isang Munting Bayani
+                </h3>
+
+                <div class="original-image">
+                    <img src="images/original.jpg" alt="Original Chapter">
+                </div>
+
+                <p>
+                    [Ilagay dito ang inyong sariling kabanata.
+                    Gumawa ng bagong pagsubok para kay Muntikas
+                    na nagpapakita ng kanyang tapang, talino,
+                    at pagmamalasakit sa kapwa.]
+                </p>
+
+                <div class="ornament">✦ ━━━━━ ✦</div>
+
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CHARACTER SECTION -->
+    <section class="character-section" id="muntikas">
+
+        <div class="character-image">
+            <img src="images/muntikas-character.png" alt="Muntikas Character">
+        </div>
+
+        <div class="character-content">
+
+            <p class="eyebrow">ANG PANGUNAHING TAUHAN</p>
+
+            <h2>Sino si Muntikas?</h2>
+
+            <p>
+                Si Muntikas ay isang tauhang sumisimbolo sa
+                katapangan at talino. Sa kabila ng kanyang maliit
+                na pangangatawan, hindi siya nagpapatalo sa takot
+                at mga pagsubok.
+            </p>
+
+            <p>
+                Ipinapakita niya na ang tunay na lakas ay hindi
+                nasusukat sa laki ng katawan kundi sa tapang ng
+                puso, talas ng isip, at kakayahang manindigan
+                para sa tama.
+            </p>
+
+            <div class="traits">
+                <span>✦ Matapang</span>
+                <span>✦ Matalino</span>
+                <span>✦ Maparaan</span>
+                <span>✦ Mapagpakumbaba</span>
+            </div>
+
+            <p>
+                Ang kanyang mga katangian ang dahilan kung bakit
+                siya nababagay sa Muntikas na lipi.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- CREDITS SECTION -->
+    <section class="credits-section" id="credits">
+
+        <p class="eyebrow">SA LIKOD NG ALAMAT</p>
+        <h2>Mga Pasasalamat</h2>
+
+        <div class="credits-content">
+
+            <p><strong>Orihinal na Akda</strong></p>
+            <p>Severino Reyes (Lola Basyang)</p>
+
+            <div class="divider"></div>
+
+            <p><strong>Fonts, Icons, at Other Assets</strong></p>
+            <p>[Ilagay ang sources ng inyong assets]</p>
+
+            <div class="divider"></div>
+
+            <p><strong>Chapter / Acknowledgment</strong></p>
+            <p>Kabanata XXI • Code Geeks</p>
+
+            <div class="divider"></div>
+
+            <p><strong>Created by</strong></p>
+            <p>[Pangalan ng inyong grupo]</p>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>KABANATA XXI: MUNTIKAS</p>
+        <p>Isang kwento ng tapang, talino, at kabayanihan.</p>
+
+        <a href="#home">↑ BACK TO TOP</a>
+
+        <small>© 2026 | Kabanata XXI</small>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #11130f;
+    color: #eee2c4;
+    font-family: 'Crimson Text', serif;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 8%;
+    background: rgba(10, 12, 9, 0.96);
+    border-bottom: 1px solid #9c7a3c;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #d8b56a;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: #e8dfc9;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d8ad55;
+}
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    min-height: 750px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(0,0,0,.72), rgba(0,0,0,.8)),
+        url("images/hero-bg.jpg") center/cover no-repeat;
+}
+
+.hero-content {
+    padding-top: 60px;
+}
+
+.eyebrow {
+    color: #c9a45d;
+    letter-spacing: 5px;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+}
+
+.hero h1 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 85px;
+    line-height: 1.2;
+    color: #e4c47f;
+    text-shadow: 0 4px 15px #000;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    width: 270px;
+    height: 270px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 20px rgba(213,174,91,.3));
+}
+
+.hero-subtitle {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.scroll-button {
+    display: inline-block;
+    margin-top: 35px;
+    text-decoration: none;
+    color: #d8b56a;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.scroll-button span {
+    display: block;
+    font-size: 28px;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+/* STORY SECTION */
+
+.story-section {
+    padding: 130px 10%;
+    background: #171a14;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 100px;
+}
+
+.section-heading h2,
+.character-content h2,
+.credits-section h2 {
+    font-family: 'Cinzel', serif;
+    color: #d8b56a;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.ornament {
+    color: #b28c4b;
+    margin: 25px 0;
+}
+
+.section-heading p:last-child {
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+/* EPISODES */
+
+.episodes {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.episode {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    scroll-margin-top: 100px;
+}
+
+.episode.reverse {
+    flex-direction: row-reverse;
+}
+
+.episode-image {
+    width: 50%;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid #a18149;
+    box-shadow: 0 10px 35px #000;
+}
+
+.episode-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .6s;
+}
+
+.episode-image img:hover {
+    transform: scale(1.07);
+}
+
+.episode-text {
+    width: 50%;
+}
+
+.episode-number {
+    font-family: 'Cinzel', serif;
+    color: #c8a25d;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.episode-text h3,
+.original-episode h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 29px;
+    color: #e0c27d;
+    margin: 20px 0;
+}
+
+.episode-text p,
+.original-episode p {
+    font-size: 19px;
+    line-height: 1.9;
+    color: #d0c7b2;
+}
+
+/* ORIGINAL CHAPTER */
+
+.original-episode {
+    text-align: center;
+    padding: 70px 100px;
+    border: 2px solid #b18b48;
+
+    background:
+        linear-gradient(rgba(35,26,14,.92), rgba(35,26,14,.95)),
+        url("images/parchment.jpg") center/cover;
+
+    box-shadow: 0 0 35px rgba(190,145,65,.12);
+}
+
+.original-image {
+    width: 70%;
+    height: 350px;
+    margin: 35px auto;
+}
+
+.original-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CHARACTER */
+
+.character-section {
+    min-height: 650px;
+    padding: 100px 12%;
+
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    background: #10120e;
+    scroll-margin-top: 75px;
+}
+
+.character-image {
+    width: 40%;
+    height: 480px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.character-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.character-content {
+    width: 60%;
+}
+
+.character-content p {
+    font-size: 19px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.traits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 30px 0;
+}
+
+.traits span {
+    padding: 12px 18px;
+    border: 1px solid #a18149;
+    color: #d8b56a;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+}
+
+/* CREDITS */
+
+.credits-section {
+    padding: 110px 20px;
+    text-align: center;
+    background: #1b1c15;
+    scroll-margin-top: 75px;
+}
+
+.credits-content {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.credits-content strong {
+    color: #d8b56a;
+    font-family: 'Cinzel', serif;
+}
+
+.divider {
+    width: 100px;
+    height: 1px;
+    background: #9c7a3c;
+    margin: 25px auto;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    background: #090a08;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer p:first-child {
+    font-family: 'Cinzel', serif;
+    color: #d8b56a;
+    letter-spacing: 3px;
+}
+
+footer a {
+    color: #d8b56a;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    margin: 10px;
+}
+
+footer small {
+    color: #777;
+}
+
+/* SECTION SCROLL OFFSET */
+
+section {
+    scroll-margin-top: 75px;
+}
