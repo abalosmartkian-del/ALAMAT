@@ -88,8 +88,9 @@ html {
 .hero-btn {
   background-color: transparent;
   border: none;
+  position: fixed;
   padding-top: 1%;
-  padding-left: 90%;
+  margin-left: 90%;
   transition: all 0.5s ease-in-out;
 }
 
@@ -111,7 +112,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 3%;
+  padding-top: 9%;
 }
 
 .hero-content p {
