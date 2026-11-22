@@ -102,4 +102,5 @@
   background-repeat: no-repeat;
   background-color: var(--bg);
   height: 126vh;
+  width: 100%;
 }
