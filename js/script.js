@@ -14,9 +14,17 @@ navBtn.addEventListener("click", function(){
 });
 
 window.addEventListener("scroll", function(){
-  if(window.scrollY > 10) { 
+  if(window.scrollY > window.innerHeight * 2) { 
     heroBtn.classList.add("scrolled");
   } else {
     heroBtn.classList.remove("scrolled");
+  }
+});
+
+window.addEventListener("scroll", function(){
+  if(window.scrollY > window.innerHeight){
+    heroBtn.classList.add("hero-btn-show");
+  } else {
+    heroBtn.classList.remove("hero-btn-show");
   }
 });
