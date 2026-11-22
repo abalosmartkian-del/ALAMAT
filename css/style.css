@@ -16,15 +16,18 @@
 }
 
 .hero-btn {
-  opacity: 0;
   background-color: transparent;
   border: none;
   position: fixed;
   left: 1290px;
+}
+
+.scrolled {
+  opacity: 0;
   transition: all 0.5s ease-in-out;
 }
 
-.hero-btn:hover {
+.scrolled:hover {
   opacity: 1;
   transform: scale(1.1);
 }
