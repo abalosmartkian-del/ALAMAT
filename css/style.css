@@ -26,13 +26,14 @@ body {
   overflow: hidden;
 }
 
-.nav-links button {
+.nav-links .nav-btn {
   background-color: transparent;
   border: none;
   position: fixed;
   top: 100px;
   right: 360px;
   font-size: 40px;
+  text-shadow: 0 0 2px var(--gold-accent);
 }
 
 .nav-links {
@@ -48,6 +49,7 @@ body {
   height: 600px;
   width: 1000px;
   transition: all 0.5s ease-in-out;
+  filter: brightness(0.89) drop-shadow(0 0 10px rgba(0, 0 , 0, 0.5));
 }
 
 .nav-hide {
@@ -82,6 +84,7 @@ body {
   text-decoration: none;
   color: var(--body-text);
   font-size: 32px;
+  text-shadow: 0 0 2px var(--body-text);
   font-family: var(--font-body);
 }
 
