@@ -5,11 +5,16 @@
 
 }
 
+* {
+  margin: 0;
+
+}
+
 .hero-section {
-  background-image: url("img/heroBg.png");
-  background-size: cover;
+  background-image: url("../img/heroBg.png");
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--bg);
-  height: auto;
+  height: 126vh;
 }
