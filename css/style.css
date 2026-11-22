@@ -1,0 +1,15 @@
+:root {
+  --gold-accent: #C9A24B;
+  --bg: #F6EBD0;
+  --body-text: #3B2A1E;
+
+}
+
+.hero-section {
+  background-image: url("img/heroBg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--bg);
+  height: auto;
+}
