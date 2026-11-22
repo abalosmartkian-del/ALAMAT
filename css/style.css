@@ -200,7 +200,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .episode-image {
@@ -233,11 +233,19 @@ body {
 }
 
 .episode-text p {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 
   font-family: var(--font-body);
   color: var(--body-text);
   font-size: 18px;
   line-height: 25px;
+  padding-bottom: 15px;
+}
+
+.episode-reverse {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 100px;
 }
